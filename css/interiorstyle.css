@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500&display=swap');
+
+.content{
+    width: 1440px;
+    height: 1080px;
+
+    background: #181719;
+    color: #FFFFFF;
+}
+
+.logo{
+    position: absolute;
+    top: 42px;
+    left: 77px;
+    width: 102px;
+    height: 32px;
+    padding: 8px;
+
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    
+    white-space: nowrap;
+    
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+
+li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 46px 43px 0;
+
+    transition: all .5s;
+}
+
+li:hover{
+    font-weight: 700;
+    border-bottom: 2px solid #FFFFFF;
+    padding-bottom: 8px;
+}
+
+.Home{
+    font-weight: 700;
+    border-bottom: 2px solid #FFFFFF;
+    padding-bottom: 8px;
+}
+
+.right_side{
+    margin-right: 76px;
+}
+
+.flexcontainer{
+    display: flex;
+}
+
+.main{
+    padding: 169px 77px 0;
+    width: 1286px;
+    height: 555px;
+}
+
+.description{
+    padding: 136px 139px 0 0;
+}
+
+.TOPIC{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 61px;
+}
+
+.info{
+    padding-top: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.read_more{
+    padding-top: 48px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.interior_photo{
+    width: 737px;
+    height: 555px;
+}
+
+.credit{
+    position: absolute;
+    width: 410px;
+    height: 189px;
+    left: 921px;
+    top: 722px;
+    background: #181719;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.credit_photo{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 18px;
+    left: 31px;
+}
+
+.credit_name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 23px 0 0 50px;
+}
+
+.credit_carrer{
+    margin: 8px 0 0 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #828282;
+}
+
+.credit_info{
+    margin: 25px 26px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+footer{
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 577px;
+    top: 1039px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-align: center;
+
+    color: #A9A9A9;
+}
+
+.myname{
+    font-weight: 700;
+}
