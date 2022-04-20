@@ -1,1 +1,1 @@
-[demo](https://yasuhiko-kiba.github.io/interior/)
+[interior](https://yasuhiko-kiba.github.io/devchallengeInterior/)
